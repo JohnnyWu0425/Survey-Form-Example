@@ -1,0 +1,254 @@
+html {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+body {
+    /* set size of body */
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+
+    /* basic font setting in this page */
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.4;
+
+    /* set the color of text */
+    color: white;
+
+
+    /* set background image: use "," to separate multiple backgorund image */
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),
+                      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    /* set the size */
+    width: 60vw;
+    height: 100vh;
+    margin: 10vh auto 0vh auto;
+
+    /* set background color */
+}
+
+.form-header {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.form-header > p {
+    font-style: italic;
+}
+
+form {
+    margin-top: 5vh;
+    padding: 5vh 0vh;
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 5px;
+}
+
+.form-group {
+    width: 85%;
+    margin: 0vh auto 5vh auto;
+}
+
+.form-label {
+    display: block;
+    font-size: 1.5rem;
+    margin: 1vh 0vw;
+}
+
+.form-input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 4.5vh;
+    padding: 10px;
+
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+
+    font-size: 1.3rem;
+    color: #495057;
+}
+
+.form-label-clue {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.form-select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 4.8vh;
+    padding: 10px;
+
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+
+    font-size: 1.3rem;
+    color: #495057;
+}
+
+.form-radio-label, .form-checkbox-label {
+    display: block;
+    font-size: 1.4rem;
+    margin: 1.3vh 0vw;
+    
+}
+
+.form-radio-label:nth-child(2), .form-checkbox-label:nth-child(2) {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 2vh;
+}
+
+.form-radio, .form-checkbox {
+    height: 2.5vh;
+    width: 2.8vw;
+    margin-left: 0vw;
+}
+
+.form-text-area {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    padding: 10px;
+
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+
+    font-size: 1.3rem;
+    color: #495057;
+}
+
+.form-submit {
+    background-color: #37af65;
+    color: white;
+    font-size: 1.7rem;
+
+    display: block;
+    width: 100%;
+    height: 6vh;
+
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0px;
+}
+
+/*
+    CSS Basic Selector Intro:
+
+    1. Universal Selector: select all elements
+
+        * {
+
+        }
+    
+    2. Type Selector: select all specific elements
+
+        div {
+
+        }
+
+    3. Class Selector: select all specific elements with given class
+        
+        .container {
+
+        }
+
+    4. ID Selector: select all specific elements with given id
+
+        #test {
+
+        }
+                
+*/
+
+/*
+    CSS Grouping Selector Intro: ","
+
+    div, input {
+
+    }
+
+*/
+
+/*
+    CSS Combinator Intro:
+
+    1. Descendant Combinator: select all descendant elements
+
+        div span {
+
+        }
+
+    2. Child Combinator: select all direct descendant elements
+
+        div > span {
+
+        }
+
+*/
+
+/*
+    CSS Pseudo Selector Intro:
+
+    1. Pseudo-Class Selector: select all elements which are in specific state (:)
+        
+        article p:first-child {
+
+        }
+
+        => it will select the <p> which is the first child in <article>
+
+        div:hover {
+
+        }
+
+        div:focus {
+
+        }
+
+        
+    
+    2. Pseudo-Element Selector: As if I add new element into markup (::)
+
+        article p::first-line {
+
+        }
+
+        => it will select the first line of all <p> in <article>
+
+
+        div::before {
+            content: "Hello"
+        }
+
+        => it will add the test, "Hello", before the main contents of div
+
+        div::after {
+            content: "Goodbye"
+        }
+
+        => it will add the test, "Hello", after the main contents of div
+
+*/
+        
+        
+
